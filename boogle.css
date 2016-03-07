@@ -4,7 +4,6 @@
     width: 100%;
     height: 40px;
     margin-bottom: 100px;
-    background-color: green;
 }  
 
 .gumb {
@@ -29,6 +28,22 @@
     border-radius: 4px;
 }
 
+.gumb button:hover {
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.24);
+}
+
+.gumb_sreca button:hover {
+    border: 1px solid grey;
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.gumb_iskanje button:hover {
+    border: 1px solid grey;
+    background-color: #f2f2f2;
+    color: black;
+}
+
 .vsebina {
     margin: 0 auto;
     text-align: center;
@@ -42,6 +57,7 @@ button {
   width: 130px;
   margin-left: 10px;
   color: #666;
+  border-radius: 3px;    
 }
 
 button a {
@@ -71,11 +87,14 @@ button a {
     right: 190px;
     top: 6px;
     text-decoration: none;
-    color: black;
-    
+    color: black;    
 }
 
-.slike a{
+.bmail a:hover {
+    text-decoration: underline;
+}
+
+.slike a {
     display: inline-block;
     height: 40px;
     float: right;
@@ -86,6 +105,10 @@ button a {
     top: 6px;
     text-decoration: none;
     color: black;
+}
+
+.slike a:hover {
+    text-decoration: underline;
 }
 
 .noga {
@@ -119,8 +142,16 @@ button a {
     color: #666;
 }
 
+.text-levo a:hover {
+    text-decoration: underline;
+}
+
 .text-desno a{
     padding: 10px;
     text-decoration: none;
     color: #666;
+}
+
+.text-desno a:hover {
+    text-decoration: underline;
 }
